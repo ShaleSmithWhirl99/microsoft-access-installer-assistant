@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#1b1024"/>
+<stop offset="0.55" stop-color="#2a1330"/>
+<stop offset="1" stop-color="#3a1420"/>
+</linearGradient>
+<linearGradient id="accessRed" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#c0392b"/>
+<stop offset="1" stop-color="#7b1e1e"/>
+</linearGradient>
+<linearGradient id="tableFill" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4a1f2a"/>
+<stop offset="1" stop-color="#2a1018"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#e0684d" stop-opacity="0.55"/>
+<stop offset="1" stop-color="#e0684d" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="keyGrad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#f2c14e"/>
+<stop offset="1" stop-color="#c98a1f"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+<circle cx="950" cy="80" r="220" fill="url(#glow)"/>
+
+<!-- faint grid backdrop -->
+<g stroke="#ffffff" stroke-opacity="0.04">
+<line x1="0" y1="60" x2="1200" y2="60"/>
+<line x1="0" y1="120" x2="1200" y2="120"/>
+<line x1="0" y1="180" x2="1200" y2="180"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="300" x2="1200" y2="300"/>
+<line x1="200" y1="0" x2="200" y2="360"/>
+<line x1="400" y1="0" x2="400" y2="360"/>
+<line x1="600" y1="0" x2="600" y2="360"/>
+<line x1="800" y1="0" x2="800" y2="360"/>
+<line x1="1000" y1="0" x2="1000" y2="360"/>
+</g>
+
+<!-- database table motif on right -->
+<g transform="translate(760,40)">
+<rect x="0" y="0" width="360" height="270" rx="10" fill="url(#tableFill)" stroke="#7b1e1e" stroke-opacity="0.6"/>
+<rect x="0" y="0" width="360" height="38" rx="10" fill="url(#accessRed)"/>
+<line x1="0" y1="38" x2="360" y2="38" stroke="#7b1e1e" stroke-width="1"/>
+<line x1="120" y1="38" x2="120" y2="270" stroke="#7b1e1e" stroke-opacity="0.7"/>
+<line x1="240" y1="38" x2="240" y2="270" stroke="#7b1e1e" stroke-opacity="0.7"/>
+<line x1="0" y1="90" x2="360" y2="90" stroke="#7b1e1e" stroke-opacity="0.5"/>
+<line x1="0" y1="142" x2="360" y2="142" stroke="#7b1e1e" stroke-opacity="0.5"/>
+<line x1="0" y1="194" x2="360" y2="194" stroke="#7b1e1e" stroke-opacity="0.5"/>
+<line x1="0" y1="246" x2="360" y2="246" stroke="#7b1e1e" stroke-opacity="0.5"/>
+<rect x="14" y="14" width="90" height="10" rx="2" fill="#f4d9c6" opacity="0.85"/>
+<rect x="134" y="14" width="90" height="10" rx="2" fill="#f4d9c6" opacity="0.85"/>
+<rect x="254" y="14" width="90" height="10" rx="2" fill="#f4d9c6" opacity="0.85"/>
+<g fill="#e0a597" opacity="0.55">
+<rect x="14" y="60" width="90" height="9" rx="2"/>
+<rect x="134" y="60" width="90" height="9" rx="2"/>
+<rect x="254" y="60" width="90" height="9" rx="2"/>
+<rect x="14" y="112" width="90" height="9" rx="2"/>
+<rect x="134" y="112" width="90" height="9" rx="2"/>
+<rect x="254" y="112" width="90" height="9" rx="2"/>
+<rect x="14" y="164" width="90" height="9" rx="2"/>
+<rect x="134" y="164" width="90" height="9" rx="2"/>
+<rect x="254" y="164" width="90" height="9" rx="2"/>
+<rect x="14" y="216" width="90" height="9" rx="2"/>
+<rect x="134" y="216" width="90" height="9" rx="2"/>
+<rect x="254" y="216" width="90" height="9" rx="2"/>
+</g>
+</g>
+
+<!-- license key icon -->
+<g transform="translate(920,270) rotate(-18)">
+<circle cx="0" cy="0" r="26" fill="none" stroke="url(#keyGrad)" stroke-width="10"/>
+<rect x="24" y="-6" width="72" height="12" fill="url(#keyGrad)"/>
+<rect x="70" y="6" width="10" height="16" fill="url(#keyGrad)"/>
+<rect x="86" y="6" width="10" height="20" fill="url(#keyGrad)"/>
+</g>
+
+<!-- installer/setup icon on left backdrop, subtle -->
+<g transform="translate(90,240)" opacity="0.9">
+<rect x="0" y="0" width="46" height="58" rx="4" fill="#5a1f28" stroke="#c0392b" stroke-width="1.5"/>
+<polyline points="8,14 38,14" stroke="#e0a597" stroke-width="3"/>
+<polyline points="8,26 38,26" stroke="#e0a597" stroke-width="3"/>
+<polyline points="8,38 26,38" stroke="#e0a597" stroke-width="3"/>
+<polygon points="23,66 15,50 31,50" fill="#f2c14e"/>
+</g>
+
+<!-- headline -->
+<text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="52" fill="#faf3ee">
+<tspan x="60" dy="0" textLength="700" lengthAdjust="spacingAndGlyphs">Microsoft Access Full</tspan>
+<tspan x="60" dy="62" textLength="560" lengthAdjust="spacingAndGlyphs">Version Download</tspan>
+</text>
+
+<text x="60" y="250" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#e0a597" textLength="700" lengthAdjust="spacingAndGlyphs">
+Download, installer, license key — full Microsoft Access setup .exe
+</text>
+
+<rect x="60" y="270" width="90" height="4" fill="url(#accessRed)"/>
+</svg>
